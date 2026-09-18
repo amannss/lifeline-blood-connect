@@ -4,7 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.jdbc.autoconfigure.DataSourceAutoConfiguration;
 
-@SpringBootApplication(exclude = { DataSourceAutoConfiguration.class })
+@SpringBootApplication
 public class LifelineBloodConnectApplication {
 
 	public static void main(String[] args) {
@@ -15,4 +15,5 @@ public class LifelineBloodConnectApplication {
 	// this is testing of push-pull requests
 	// testing forked repo
 	// checking selected folders
+	// changing
 }
